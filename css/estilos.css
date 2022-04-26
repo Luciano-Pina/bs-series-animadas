@@ -24,3 +24,35 @@ main {
 
 div h4 {
   color: #fca311; }
+
+div h2 {
+  color: #fca311;
+  text-decoration: underline;
+  margin-bottom: 1rem; }
+
+.padre_responsive {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; }
+
+.video_responsive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+
+div label {
+  color: #8cff98; }
+
+.img-size {
+  width: 80%;
+  height: 80%; }
+
+.link-deco {
+  text-decoration: none; }
+  .link-deco:hover {
+    text-decoration: underline double; }
