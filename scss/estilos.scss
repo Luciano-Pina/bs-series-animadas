@@ -73,3 +73,20 @@ div {
         text-decoration: underline double;
     }
 }
+
+// Para la entrega de Sass II
+
+// Mapas-------------
+
+$links: (arcane: #7A0DC7, primal: #BB9457, avatar: #00a6fb, invincible: #ffe556);
+
+@each $link, $color in $links {
+    .link-#{$link}{
+        color: $color
+    }
+}
+
+.super-deco {
+    @extend .link-deco;
+    text-transform: uppercase;
+}

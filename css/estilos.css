@@ -52,7 +52,22 @@ div label {
   width: 80%;
   height: 80%; }
 
-.link-deco {
+.link-deco, .super-deco {
   text-decoration: none; }
-  .link-deco:hover {
+  .link-deco:hover, .super-deco:hover {
     text-decoration: underline double; }
+
+.link-arcane {
+  color: #7A0DC7; }
+
+.link-primal {
+  color: #BB9457; }
+
+.link-avatar {
+  color: #00a6fb; }
+
+.link-invincible {
+  color: #ffe556; }
+
+.super-deco {
+  text-transform: uppercase; }
